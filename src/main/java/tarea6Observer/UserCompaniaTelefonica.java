@@ -20,10 +20,12 @@ public class UserCompaniaTelefonica implements IUser{
 
     @Override
     public String getPreferenciaActividades() {
+
         return actividad;
     }
 
     public Persona getPersona() {
+
         return persona;
     }
 }
